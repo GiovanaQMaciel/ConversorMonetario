@@ -31,7 +31,7 @@ def carregar_moedas_destino(moeda_selecionada):
     campo_destino.set(lista_moedas_destino[0])
 
 campo_origem = customtkinter.CTkOptionMenu(janela, values=list(dic_conversoes_disponiveis.keys()) , command=carregar_moedas_destino ,font=("",14), fg_color= "orange", width=160, height=35)
-campo_destino = customtkinter.CTkOptionMenu(janela, values= ["Selecione uma moeda de origem"], font=("",14), fg_color= "orange", width=160, height=35)
+campo_destino = customtkinter.CTkOptionMenu(janela, values= ["Selecione uma moeda de origem"], font=("",14), fg_color= "purple", width=160, height=35)
 espaco = customtkinter.CTkLabel(janela, text="")
 
 def converter_moeda():
